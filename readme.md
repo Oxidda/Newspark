@@ -1,8 +1,8 @@
 Dit project bevat een standaard .NET Core website om CI/CD uit te proberen.
 
 
-Voor dit in Azure Devops moet het volgende gebeuren:
-- Azure Devops account aanmaken en verwijzing naar het github project, waarschijnlijk moet je deze forken.
-- In Azure Devops een build inrichten
-- Een plek vinden waar de applicatie word deployed (Bijv op Azure)
-- In azure Devops een release inrichten die deployed naar de location
+Om CI/D voor elkaar te krijgen moet het volgende gebeuren:
+- Account aanmaken op gewenst platform  en verwijzing naar het github project, waarschijnlijk moet je deze forken.
+- Een build inrichten zodat de website word gebouwd. 
+- Een plek vinden waar de applicatie word deployed (Bijv op Azure, AWS, Google Cloud, Newspark playground)
+- In een release inrichten die deployed naar de location
